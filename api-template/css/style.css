@@ -1,0 +1,56 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(130, 8, 8, 0.824);
+  font-size: 10em;
+  border-bottom: 5px solid black;
+  margin: 5em, auto;
+}
+
+button {
+  margin-top: 1%;
+}
+
+.displayContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* Medieval Font from Google */
+body {
+  font-family: 'MedievalSharp', cursive;
+  
+}
+
+h3 {
+  font-size: 2em;
+}
